@@ -1,0 +1,141 @@
+.wrapper {
+  animation: fadeInUp 0.5s ease-out;
+}
+
+.steps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-3xl);
+  flex-wrap: wrap;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  opacity: 0.3;
+  transition: opacity var(--transition-slow);
+  position: relative;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+.step.done {
+  opacity: 0.6;
+}
+
+.stepIcon {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-surface);
+  border: 1px solid var(--color-glass-border);
+  color: var(--color-text-muted);
+  position: relative;
+  transition: all var(--transition-base);
+}
+
+.step.active .stepIcon {
+  background: rgba(139, 92, 246, 0.15);
+  border-color: rgba(139, 92, 246, 0.4);
+  color: var(--color-accent-purple);
+}
+
+.step.done .stepIcon {
+  background: rgba(16, 185, 129, 0.15);
+  border-color: rgba(16, 185, 129, 0.4);
+  color: var(--color-accent-emerald);
+}
+
+.pulse {
+  position: absolute;
+  inset: -4px;
+  border-radius: var(--radius-full);
+  border: 2px solid var(--color-accent-purple);
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+.stepLabel {
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  white-space: nowrap;
+}
+
+.step.active .stepLabel {
+  color: var(--color-text-primary);
+}
+
+.connector {
+  width: 40px;
+  height: 2px;
+  background: var(--color-glass-border);
+  margin: 0 var(--space-xs);
+  transition: background var(--transition-slow);
+}
+
+.connectorDone {
+  background: var(--color-accent-emerald);
+}
+
+/* Skeleton Cards */
+.skeletonGrid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.skeletonRow {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-lg);
+}
+
+.skeletonCard {
+  background: var(--color-glass);
+  border: 1px solid var(--color-glass-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.skeletonCard.large {
+  padding: var(--space-2xl);
+}
+
+.skeletonLine {
+  height: 14px;
+  border-radius: var(--radius-sm);
+}
+
+.w40 { width: 40%; }
+.w50 { width: 50%; }
+.w60 { width: 60%; }
+.w70 { width: 70%; }
+.w80 { width: 80%; }
+.w90 { width: 90%; }
+.w100 { width: 100%; }
+
+@media (max-width: 768px) {
+  .skeletonRow {
+    grid-template-columns: 1fr;
+  }
+
+  .steps {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .connector {
+    display: none;
+  }
+}

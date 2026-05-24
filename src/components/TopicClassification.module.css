@@ -1,0 +1,65 @@
+.wrapper {
+  padding: var(--space-xl);
+}
+
+.count {
+  font-size: var(--font-size-xs);
+  background: var(--color-surface);
+  padding: 2px 10px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--color-glass-border);
+  color: var(--color-text-muted);
+  font-weight: 500;
+  margin-left: var(--space-xs);
+}
+
+.bars {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.barRow {
+  cursor: default;
+}
+
+.barLabel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.topicName {
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.pct {
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.barTrack {
+  width: 100%;
+  height: 10px;
+  background: var(--color-surface);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+}
+
+.barFill {
+  height: 100%;
+  border-radius: var(--radius-full);
+  transition: width 1s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 0 8px currentColor;
+}
+
+.description {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  margin-top: 4px;
+  line-height: 1.4;
+}
