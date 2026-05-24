@@ -2,9 +2,6 @@
 
 An AI-powered web application built with Next.js and React that delivers instant video summaries, key takeaways, clickable timestamp highlights, topic classification, and sentiment analysis. Fully styled with a premium glassmorphic dark mode UI.
 
-![Aesthetics Showcase](https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1200&auto=format&fit=crop)
-
----
 
 ## Features
 
