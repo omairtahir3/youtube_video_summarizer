@@ -66,18 +66,4 @@ An AI-powered web application built with Next.js and React that delivers instant
 5. Open your browser and navigate to:
    [http://localhost:3000](http://localhost:3000)
 
----
 
-## Project Screenshots
-
-### Desktop Dashboard
-A clean workspace displaying tabbed results for summary, takeaways, timelines, and visual analysis.
-
-### PDF Notes Export
-Generate structured offline notes immediately with a clicking of the PDF Exporter button on the video header.
-
----
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
