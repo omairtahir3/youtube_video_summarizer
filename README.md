@@ -1,4 +1,4 @@
-# 🎥 YouTube Video Summarizer
+# YouTube Video Summarizer
 
 An AI-powered web application built with Next.js and React that delivers instant video summaries, key takeaways, clickable timestamp highlights, topic classification, and sentiment analysis. Fully styled with a premium glassmorphic dark mode UI.
 
@@ -6,21 +6,21 @@ An AI-powered web application built with Next.js and React that delivers instant
 
 ---
 
-## ✨ Features
+## Features
 
-- **📝 High-Quality Summaries:** Detailed narrative breakdown and checkable key bullet points.
-- **💡 Key Takeaways Grid:** Grouped takeaways categorized by importance level (High, Medium, Low).
-- **⏱️ Clickable Timestamps:** Staggered chronological timelines linking directly to the precise seconds on YouTube.
-- **📊 Sentiment & Topic Classification:**
+- **High-Quality Summaries:** Detailed narrative breakdown and checkable key bullet points.
+- **Key Takeaways Grid:** Grouped takeaways categorized by importance level (High, Medium, Low).
+- **Clickable Timestamps:** Staggered chronological timelines linking directly to the precise seconds on YouTube.
+- **Sentiment & Topic Classification:**
   - Interactive conic-gradient donut charts representing positive, negative, and neutral sentiments.
   - Animated horizontal bar charts representing classified topics.
   - Interactive keyword clouds colored by categories.
-- **📄 Premium PDF Exporter:** Generate and download a beautifully formatted multi-page PDF of your summaries with a single click.
-- **🎨 Glassmorphic Interface:** Smooth CSS micro-animations, loading skeletons, responsive tabs, custom scrollbars, and toast notifications.
+- **Premium PDF Exporter:** Generate and download a beautifully formatted multi-page PDF of your summaries with a single click.
+- **Glassmorphic Interface:** Smooth CSS micro-animations, loading skeletons, responsive tabs, custom scrollbars, and toast notifications.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework:** Next.js 15 (App Router)
 - **Library:** React 19
@@ -32,7 +32,7 @@ An AI-powered web application built with Next.js and React that delivers instant
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -71,7 +71,7 @@ An AI-powered web application built with Next.js and React that delivers instant
 
 ---
 
-## 📸 Project Screenshots
+## Project Screenshots
 
 ### Desktop Dashboard
 A clean workspace displaying tabbed results for summary, takeaways, timelines, and visual analysis.
@@ -81,6 +81,6 @@ Generate structured offline notes immediately with a clicking of the PDF Exporte
 
 ---
 
-## 🔒 License
+## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
